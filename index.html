@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный кабинет</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Логотип</div>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Курсы</a></li>
+                <li><a href="#">Задания</a></li>
+                <li><a href="#">Сообщения</a></li>
+                <li><a href="#">Профиль</a></li>
+            </ul>
+        </nav>
+        <button class="logout">Выход</button>
+    </header>
+    
+    <aside>
+        <div class="profile">
+            <img src="avatar.jpg" alt="Аватар" />
+            <h2>Имя пользователя</h2>
+            <p>Статус: Учитель</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Мои курсы</a></li>
+                <li><a href="#">Домашние задания</a></li>
+                <li><a href="#">Сообщения</a></li>
+                <li><a href="#">Настройки профиля</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+        <h1>Мои курсы</h1>
+        <section class="courses">
+            <div class="course-card">
+                <h2>Курс 1</h2>
+                <p>Описание курса...</p>
+                <progress value="70" max="100"></progress>
+                <button>Перейти к курсу</button>
+            </div>
+            <div class="course-card">
+                <h2>Курс 2</h2>
+                <p>Описание курса...</p>
+                <progress value="30" max="100"></progress>
+                <button>Перейти к курсу</button>
+            </div>
+        </section>
+
+        <section class="assignments">
+            <h2>Предстоящие задания</h2>
+            <ul>
+                <li>Задание 1 - Дата сдачи: 25.09.2024 - Статус: Выполнено</li>
+                <li>Задание 2 - Дата сдачи: 30.09.2024 - Статус: В процессе</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Образовательная платформа. Все права защищены.</p>
+        <a href="#">Политика конфиденциальности</a> | <a href="#">Пользовательское соглашение</a>
+    </footer>
+</body>
+</html>
